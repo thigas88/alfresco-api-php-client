@@ -1,5 +1,6 @@
 {
     "name": "thigas88/alfresco-api-php-client",
+    "type": "library",
     "description": "A PHP library for Alfresco API ",
     "keywords": [
         "php",
@@ -7,13 +8,18 @@
         "api"
     ],
     "homepage": "",
-    "license": "proprietary",
+    "license": ["GPL-2.0-only"],
     "authors": [
         {
             "name": "Thiago Mendes Borges",
             "homepage": "https://github.com/thigas88"
         }
     ],
+    "support": {
+		"issues": "https://github.com/thigas88/alfresco-api-php-client/issues",
+		"source": "https://github.com/thigas88/alfresco-api-php-client",
+        "docs": "https://github.com/thigas88/alfresco-api-php-client/docs"
+	},
     "require": {
         "php": ">=5.4",
         "ext-curl": "*",
@@ -27,9 +33,9 @@
         "friendsofphp/php-cs-fixer": "~1.12"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "Alfresco\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "Alfresco\\" : "test/" }
     }
 }
