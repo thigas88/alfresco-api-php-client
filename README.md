@@ -1,4 +1,6 @@
 # Alfresco API
+This project is a fork from rhuanbarreto/alfresco-api-php-client with some improvements
+
 **API**  Provides access to the features of Alfresco Content Services.
 
 ## Requirements
@@ -13,13 +15,21 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
 ```
 {
   "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/rhuanbarreto/alfresco-api-php-client.git"
-    }
-  ],
+        {
+            "type": "package",
+            "package": {
+                "name": "thigas88/alfresco-api-php-client",
+                "version": "1.0",
+                "source": {
+                    "url": "https://github.com/thigas88/alfresco-api-php-client.git",
+                    "type": "git",
+                    "reference": "origin/master"
+                }
+            }
+        }
+    ],
   "require": {
-    "/": "*@dev"
+    "thigas88/alfresco-api-php-client": "1.0"
   }
 }
 ```
