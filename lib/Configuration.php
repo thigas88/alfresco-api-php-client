@@ -747,7 +747,7 @@ class Configuration
      */
     public static function setSearchApi()
     {
-       $this->host = $this->host_search;
-       return $this;
+        self::$host = self::$host_search;
+        return self;
     }
 }
