@@ -1,18 +1,17 @@
 {
     "name": "thigas88/alfresco-api-php-client",
-    "description": "",
+    "description": "A PHP library for Alfresco API ",
     "keywords": [
-        "swagger",
         "php",
-        "sdk",
+        "alfresco",
         "api"
     ],
-    "homepage": "http://swagger.io",
+    "homepage": "",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Thiago Mendes Borges",
+            "homepage": "https://github.com/thigas88"
         }
     ],
     "require": {
