@@ -296,7 +296,7 @@ class ApiClient
             }
 
             throw new ApiException(
-                "[".$response_info['http_code']."] Error connecting to the API ($url)",
+                "[".$response_info['http_code']."] Error connecting to the API ($url). <br/> Details: " . $data->error->errorKey . " | briefSummary:" . $data->error->briefSummary,
                 $response_info['http_code'],
                 $http_header,
                 $data
