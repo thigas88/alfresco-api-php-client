@@ -14,27 +14,15 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
 
 ```
 {
-  "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "thigas88/alfresco-api-php-client",
-                "version": "1.0",
-                "source": {
-                    "url": "https://github.com/thigas88/alfresco-api-php-client.git",
-                    "type": "git",
-                    "reference": "origin/master"
-                }
-            }
-        }
-    ],
   "require": {
-    "thigas88/alfresco-api-php-client": "1.0"
+    "thigas88/alfresco-api-php-client": "@dev"
   }
 }
 ```
 
 Then run `composer install`
+
+Or run `composer require thigas88/alfresco-api-php-client`
 
 ### Manual Installation
 
